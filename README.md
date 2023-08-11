@@ -79,7 +79,7 @@ Las contribuciones son bienvenidas. Si deseas mejorar este programa, sigue estos
 
 # Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico: tu_correo@example.com
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico: alejandrodas15perfecto@gmail.com
 
 
 # ¡Disfruta usando el PS personalizado!
