@@ -1,87 +1,103 @@
-# procesos-de-usuario
+# User Processes 🔄
 
-PS Personalizado
+Custom PS 🖥️
 
-Este programa es una versión personalizada del comando "ps" en Bash. Proporciona una lista de los procesos en ejecución del usuario actual.
+This program is a personalized version of the "ps" command in Bash. It provides a list of the running processes for the current user.
 
+<p  align="center" >
+  <img width="600px"src="https://github.com/AlejandroDavidArzolaSaavedra/procesos-de-usuario/assets/90756437/ec70f535-d008-4b26-a881-b7ca843ff19e">
+</p>
 
-# Cómo ejecutar el programa
+# 👥 Development Team (Ctrl + Click to view profiles)
 
-Clona este repositorio en tu máquina local:
+[![GitHub](https://img.shields.io/badge/GitHub-Alejandro%20David%20Arzola%20Saavedra-blue?style=flat-square&logo=github)](https://github.com/AlejandroDavidArzolaSaavedra)
 
-git clone https://github.com/tu_usuario/ps-personalizado.git
+## How to Run the Program 🔍
 
-Navega hasta el directorio del proyecto:
+Clone this repository to your local machine:
 
-cd ps-personalizado
+```bash
+git clone https://github.com/your_username/procesos-de-usuario.git
+```
 
-Otorga permisos de ejecución al archivo del programa:
+Navigate to the project directory:
 
-chmod +x ps_personalizado.sh
+```bash
+cd procesos-de-usuario
+```
 
-# Ejecuta el programa:
+Grant execution permissions to the program file:
 
-# Para que salga los elementos basicos
-./procesos_usuario.sh <numero entero>
+```bash
+chmod +x custom_ps.sh
+```
 
-Ej:
+### Run the program:
 
+For basic elements:
+
+```bash
+./procesos_usuario.sh <integer>
+```
+
+Example:
+
+```bash
 ./procesos_usuario.sh 1
+```
 
-Y te saldra si supera el umbral, los datos del usuario que ejecuto el programa
+It will display information about the user who executed the program if it exceeds the threshold.
 
+To run it with basic elements and a list of users:
 
-# Para ejecutarlo con elementos basicos y con lista de usuarios
+```bash
+./procesos_usuario.sh <integer> [List of users]
+```
 
-./procesos_usuario.sh <numero entero> [Lista de usuarios]
+Example:
 
-Ej:
-
+```bash
 ./procesos_usuario.sh 1 root pepe juan Suarez
+```
 
-Y de la lista de usuarios te saldran los que son del sistema y superan el umbral
-Y los que no forman parte del sistema por error del usuario tambien se muestran en una lista aparte
+The list will show users from the system exceeding the threshold, and those not part of the system due to user error will be displayed separately.
 
+To run it with additional basic elements:
 
-# Para ejecutarlo con elementos basicos adicionales
+```bash
+./procesos_usuario.sh <integer> <option> [List of users]
+```
 
-./procesos_usuario.sh <numero entero> <opcion> [Lista de usuarios]
+Options include:
 
-Las opciones son:
+- `-m` Total virtual memory
+- `-t` Processes with tty
+- `-T` Processes without tty
 
--m Total de la memoria virtual
--t Los procesos con tty
--T Los procesos sin tty
+Example:
 
-Ej:
-
+```bash
 ./procesos_usuario.sh 1 -Tmt root pepe juan Suarez
+```
 
-o
+or
 
+```bash
 ./procesos_usuario.sh 1 -mt
+```
 
-# Funcionalidades
+## Features ⚙️
 
-Muestra una lista de los procesos en ejecución del usuario actual. Proporciona información como el nombre de usuario, el uid, los numeros de procesos totales de ese usuario, el numero de hilos totales que tiene ese usuario en ese momento, el numero de procesos que estan dormidos de manera predeterminada, y de manera opcional el consumo total de memoria virtual, el numero de total de procesos con tty y el numero total de procesos sin tty. 
+Displays a list of running processes for the current user. It provides information such as the username, UID, total number of processes for that user, total number of threads for that user at the moment, the number of processes sleeping by default, and optionally the total virtual memory consumption, the total number of processes with tty, and the total number of processes without tty.
 
+## Contributions 🤝
 
-# Contribuciones
+Contributions are welcome. If you want to improve this program, follow these steps:
 
-Las contribuciones son bienvenidas. Si deseas mejorar este programa, sigue estos pasos:
+- Fork this repository.
+- Create a branch for your new feature: `git checkout -b new-feature`
+- Make necessary changes and commit: `git commit -am 'Add new feature'`
+- Push your changes to your forked repository: `git push origin new-feature`
+- Open a pull request in this repository.
 
-- Haz un fork de este repositorio.
-- Crea una rama para tu nueva funcionalidad: git checkout -b nueva-funcionalidad
-- Realiza los cambios necesarios y realiza los commits: git commit -am 'Agregar nueva funcionalidad'
-- Envía tus cambios a tu repositorio fork: git push origin nueva-funcionalidad
-- Abre un pull request en este repositorio.
-
-
-# Contacto
-
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico: alejandrodas15perfecto@gmail.com
-
-
-# ¡Disfruta usando el PS personalizado!
-
-
+## Enjoy using the Custom PS! 🚀
