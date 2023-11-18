@@ -1,6 +1,6 @@
-# User Processes 🔄
+<h1 align="center">User Processes 🔄 </h1>
 
-Custom PS 🖥️
+<strong>Custom PS 🖥️</strong>
 
 This program is a personalized version of the "ps" command in Bash. It provides a list of the running processes for the current user.
 
