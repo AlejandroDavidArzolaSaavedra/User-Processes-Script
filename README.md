@@ -100,4 +100,4 @@ Contributions are welcome. If you want to improve this program, follow these ste
 - Push your changes to your forked repository: `git push origin new-feature`
 - Open a pull request in this repository.
 
-## Enjoy using the Custom PS! 🚀
+<h1 align="center">Enjoy using the Custom PS! 🚀</h1>
