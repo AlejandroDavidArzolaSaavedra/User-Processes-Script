@@ -1,7 +1,5 @@
 <h1 align="center">User Processes 🔄 </h1>
 
-<strong>Custom PS 🖥️</strong>
-
 This program is a personalized version of the "ps" command in Bash. It provides a list of the running processes for the current user.
 
 <p  align="center" >
