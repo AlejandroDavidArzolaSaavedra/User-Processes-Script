@@ -89,8 +89,8 @@ or
 Displays a list of running processes for the current user. It provides information such as the username, UID, total number of processes for that user, total number of threads for that user at the moment, the number of processes sleeping by default, and optionally the total virtual memory consumption, the total number of processes with tty, and the total number of processes without tty.
 
 ## Contributions 🤝
-
-Contributions are welcome. If you want to improve this program, follow these steps:
+<img align="left" width="100px" src="https://github.com/AlejandroDavidArzolaSaavedra/User-Processes-Script/assets/90756437/dfcbc811-ea31-406d-b730-7fa4d1c24210">
+<h3 align="center">Contributions are welcome. If you want to improve this program, follow these steps</h3>
 
 - Fork this repository.
 - Create a branch for your new feature: `git checkout -b new-feature`
