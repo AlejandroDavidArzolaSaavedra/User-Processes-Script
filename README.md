@@ -90,7 +90,7 @@ Displays a list of running processes for the current user. It provides informati
 
 ## Contributions 🤝
 <img align="left" width="100px" src="https://github.com/AlejandroDavidArzolaSaavedra/User-Processes-Script/assets/90756437/dfcbc811-ea31-406d-b730-7fa4d1c24210">
-<h3 align="center">Contributions are welcome. If you want to improve this program, follow these steps</h3>
+<h3 align="center">Contributions are welcome, follow these steps</h3>
 
 - Fork this repository.
 - Create a branch for your new feature: `git checkout -b new-feature`
