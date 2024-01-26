@@ -1,7 +1,6 @@
 #!/bin/bash
 ####################################
 # @author: ADAS
-# @date: 15-01-2023
 # 1. Visualizar procesos del sistema
 ####################################
 
