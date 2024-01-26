@@ -15,13 +15,13 @@ This program is a personalized version of the "ps" command in Bash. It provides 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your_username/procesos-de-usuario.git
+git clone https://github.com/your_username/User-Processes-Script.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd procesos-de-usuario
+cd User-Processes-Script
 ```
 
 Grant execution permissions to the program file:
