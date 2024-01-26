@@ -35,13 +35,13 @@ chmod +x custom_ps.sh
 For basic elements:
 
 ```bash
-./procesos_usuario.sh <integer>
+./custom_ps.sh <integer>
 ```
 
 Example:
 
 ```bash
-./procesos_usuario.sh 1
+./custom_ps.sh 1
 ```
 
 It will display information about the user who executed the program if it exceeds the threshold.
@@ -49,13 +49,13 @@ It will display information about the user who executed the program if it exceed
 To run it with basic elements and a list of users:
 
 ```bash
-./procesos_usuario.sh <integer> [List of users]
+./custom_ps.sh <integer> [List of users]
 ```
 
 Example:
 
 ```bash
-./procesos_usuario.sh 1 root pepe juan Suarez
+./custom_ps.sh 1 root pepe juan Suarez
 ```
 
 The list will show users from the system exceeding the threshold, and those not part of the system due to user error will be displayed separately.
@@ -63,7 +63,7 @@ The list will show users from the system exceeding the threshold, and those not 
 To run it with additional basic elements:
 
 ```bash
-./procesos_usuario.sh <integer> <option> [List of users]
+./custom_ps.sh <integer> <option> [List of users]
 ```
 
 Options include:
@@ -75,13 +75,13 @@ Options include:
 Example:
 
 ```bash
-./procesos_usuario.sh 1 -Tmt root pepe juan Suarez
+./custom_ps.sh 1 -Tmt root pepe juan Suarez
 ```
 
 or
 
 ```bash
-./procesos_usuario.sh 1 -mt
+./custom_ps.sh 1 -mt
 ```
 
 ## Features ⚙️
