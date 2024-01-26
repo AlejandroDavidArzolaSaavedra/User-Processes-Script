@@ -13,13 +13,12 @@ This program is a personalized version of the "ps" command in Bash. It provides 
 ## How to Run the Program 🔍
 
 Clone this repository to your local machine:
-
+<img align="right" width="100px" src="https://github.com/AlejandroDavidArzolaSaavedra/User-Processes-Script/assets/90756437/19bd5b71-30a2-4398-8759-8bfe89414580">
 ```bash
 git clone https://github.com/your_username/User-Processes-Script.git
 ```
-
 Navigate to the project directory:
-
+<img align="right" width="100px" src="https://github.com/AlejandroDavidArzolaSaavedra/User-Processes-Script/assets/90756437/913ab94d-7f23-4663-afe5-1c7f8dab38ed">
 ```bash
 cd User-Processes-Script
 ```
