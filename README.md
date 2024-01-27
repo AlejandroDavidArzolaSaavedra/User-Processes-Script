@@ -24,7 +24,7 @@ cd User-Processes-Script
 ```
 
 Grant execution permissions to the program file:
-
+<img align="right" width="100px" src="https://github.com/AlejandroDavidArzolaSaavedra/User-Processes-Script/assets/90756437/a459107b-6aff-416f-825f-eb0c48608c0b">
 ```bash
 chmod +x custom_ps.sh
 ```
